@@ -1,0 +1,9 @@
+The process of moving commits between branches (often from a
+feature branch to master) is known as merging. It's important to
+remember when merging that we need to be on the branch that
+we want to merge to before performing the merge, as the merge
+will be represented as a new commit on that branch.
+In this case, we want to merge from the "my-feature" branch,
+where we've made our changes, to the master branch. Switch
+back to the master branch if you aren't already on it (you can use
+git branch to check).
