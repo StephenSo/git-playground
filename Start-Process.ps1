@@ -16,3 +16,5 @@ while ($SelectLine -gt $i -or $SelectLine -lt 1){
     catch {}
 }
 Write-Host "`nLine selected: $($FileData[$SelectLine-1])`n"
+
+Write-Host "Is this ok?"
