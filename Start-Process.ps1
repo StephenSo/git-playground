@@ -1,7 +1,11 @@
 write-host "Main Branch"
-$UserInput = Read-Host "Enter data input"
 
+$UserInput = $null
+while ((-not $UserInput) -or (-not (Test-Path $UserInput))) {
+    $UserInput = Read-Host "Enter data input"
+} 
 $FileData = Get-Content $UserInput
+
 $i = 0
 foreach ($Line in $FileData){
     $i++
