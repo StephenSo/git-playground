@@ -1,0 +1,9 @@
+For that reason, one of the most common
+workflows that is followed when using Git is to
+create a new branch, make your changes as a
+series of commits on that branch, and then
+merge that branch into master when done.
+This has a number of benefits, allowing related
+changes to be grouped together, and
+simplifying the process of integrating changes
+from different developers.
